@@ -52,6 +52,11 @@ table.center {
     margin-right: auto;
 }
 
+/* to remove the dot from li elements */
+ul {
+    list-style-type: none;
+}
+
 tr:hover {
     background-color: cornflowerblue;
 }
