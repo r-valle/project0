@@ -2,6 +2,10 @@ h1 {
     text-align: center;
 }
 
+body {
+    background-color: darkgrey;
+}
+
 .brief_info {
     font-size: 16px;
     text-align: center;
@@ -52,9 +56,31 @@ table.center {
     margin-right: auto;
 }
 
-/* to remove the dot from li elements */
 ul {
+    /* to remove the dot from li elements */
     list-style-type: none;
+
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blue;
+    color: white;
 }
 
 tr:hover {
