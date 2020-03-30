@@ -1,0 +1,21 @@
+h1.title, h2.title, .brief_info, table, th, td, ul#results, ul.horizontal_nav > li a {
+  text-align: center;
+}
+
+li a:hover, th {
+  background-color: blue;
+}
+
+th, ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {
+  color: white;
+}
+
+div.card:hover, tr:hover {
+  background-color: cornflowerblue;
+}
+
+ul#results, ul.horizontal_nav {
+  list-style-type: none;
+}
+
+/*# sourceMappingURL=variables.css.map */
