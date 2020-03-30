@@ -1,4 +1,4 @@
-h1.title {
+h1.title, h2.title {
     text-align: center;
 }
 
@@ -56,6 +56,10 @@ table.center {
     margin-right: auto;
 }
 
+tr:hover {
+    background-color: cornflowerblue;
+}
+
 ul#results {
     list-style-type: none;
     text-align: center;
@@ -88,8 +92,17 @@ li a:hover {
     color: white;
 }
 
-tr:hover {
+div.card {
+    margin: 15px;
+}
+
+div.card:hover {
     background-color: cornflowerblue;
+    color: white;
+}
+
+div.card:hover div.card-body a {
+    color: white;
 }
 
 @media (min-width: 500px) {
