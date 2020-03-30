@@ -44,7 +44,7 @@ th, td {
 }
 
 /* to center the table */
-table.center {
+table.center, table.table-sm.table-dark {
     margin-left: auto;
     margin-right: auto;
 }
