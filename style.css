@@ -56,6 +56,11 @@ table.center {
     margin-right: auto;
 }
 
+ul#results {
+    list-style-type: none;
+    text-align: center;
+}
+
 ul.horizontal_nav {
     /* to remove the dot from li elements */
     list-style-type: none;
