@@ -2,7 +2,7 @@ h1.title, h2.title, .brief_info, table, th, td, ul#results, ul.horizontal_nav > 
   text-align: center;
 }
 
-li a:hover, table.table-sm.table-dark thead tr th[scope=col] {
+li a:hover, table.table-sm.table-dark thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
   background-color: blue;
 }
 

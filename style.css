@@ -70,6 +70,20 @@ div.card {
     margin: 15px;
 }
 
+/* TODO: To equal the height of the card title. */
+div.card.file_card {
+    width: 25%;
+    text-align: center;
+}
+
+img.card-img-top {
+    width: 85%;
+    margin: 15px;
+    /* To center image */
+    margin-left: auto;
+    margin-right: auto;
+}
+
 @media (min-width: 500px) {
     body {
         max-width: 100%;
