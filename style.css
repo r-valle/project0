@@ -70,7 +70,7 @@ div.card {
     margin: 15px;
 }
 
-/* TODO: To equal the height of the card title. */
+/* TODO: To equal the height of the card title when some names occupy several lines. */
 div.card.file_card {
     width: 25%;
     text-align: center;
