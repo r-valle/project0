@@ -107,15 +107,15 @@ h5 > .btn.btn-link:hover {
 }
 
 .first_parallax {
-    background-image: url('./img/parallax_image1.jpg');
+    background-image: url('./img/parallax/parallax_image1.jpg');
 }
 
 .second_parallax {
-    background-image: url('./img/parallax_image2.jpg');
+    background-image: url('./img/parallax/parallax_image2.jpg');
 }
 
 .third_parallax {
-    background-image: url('./img/parallax_image3.jpg');
+    background-image: url('./img/parallax/parallax_image3.jpg');
 }
 
 @media (min-width: 500px) {
