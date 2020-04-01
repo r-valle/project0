@@ -5,13 +5,17 @@ Web Programming with Python and JavaScript
 My project consists of a website about the Leicester City team.
 
 The content of the files is the following:
-- index.html: A brief summary about the team
+- index.html: The web cover
 - team.html: The list of footballers
-- table.html: The current table of the Premier League 2020/21
 - results.html: List of the 5 latest matches
+- table.html: The current table of the Premier League 2020/21
+- gallery.html: The image gallery
+- about.html: A brief summary about the team
 - style.css: The project's stylesheet
 - variables.css: Common css variables generated using Sass
 - variables.scss: Common sass variables
 - .gitignore: List of file extensions we don't want to upload to Github
-- shield.ico: Leicester City's shield (ico version)
-- shield.png: Leicester City's shield (png version)
+- img/footballers: The photos of the footballers
+- img/gallery: The photos of the image gallery
+- img/parallax: The photos for the parallax's background 
+- img/utils: Some images such as the ball, the shield and a red card.
