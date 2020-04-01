@@ -4,7 +4,7 @@ $hover_letter_color: white;
 $hover_item_color: cornflowerblue;
 $list_element_without_dot: none;
 
-h1.title, h2.title, .brief_info, table, th, td, ul#results, ul.horizontal_nav > li a {
+h1.title, h2.title, .brief_info, table, th, td, ul#results, ul.horizontal_nav > li a, ul.goals > li a {
     text-align: $centered_position;
 }
 
@@ -20,6 +20,6 @@ div.card:hover, tr:hover {
     background-color: $hover_item_color;
 }
 
-ul#results, ul.horizontal_nav {
+ul#results, ul.horizontal_nav, ul.goals {
     list-style-type: $list_element_without_dot;
 }

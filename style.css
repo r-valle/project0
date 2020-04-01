@@ -84,6 +84,15 @@ img.card-img-top {
     margin-right: auto;
 }
 
+.small_icon {
+    width: 10%;
+    margin: 15px;
+}
+
+h5 > .btn.btn-link:hover {
+    color: white;
+}
+
 /* Parallax effect */
 
 /* TODO: Refactor several parallax classes in only class */
@@ -124,5 +133,9 @@ img.card-img-top {
 @media (max-width: 499px) {
     table {
         width: 20%;
+    }
+
+    .small_icon {
+        width: 35%;
     }
 }
