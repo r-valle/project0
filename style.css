@@ -86,8 +86,8 @@ img.card-img-top {
 
 /* Parallax effect */
 
+/* TODO: Refactor several parallax classes in only class */
 .parallax {
-    background-image: url('./img/parallax_image1.jpg');
     height: 400px;
 
     /* parallax scrolling effect */
@@ -95,28 +95,18 @@ img.card-img-top {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.first_parallax {
+    background-image: url('./img/parallax_image1.jpg');
 }
 
 .second_parallax {
     background-image: url('./img/parallax_image2.jpg');
-    height: 400px;
-
-    /* parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 .third_parallax {
     background-image: url('./img/parallax_image3.jpg');
-    height: 400px;
-
-    /* parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
 }
 
 @media (min-width: 500px) {
