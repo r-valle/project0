@@ -2,11 +2,11 @@ h1.title, h2.title, .brief_info, table, th, td, ul#results, ul.horizontal_nav > 
   text-align: center;
 }
 
-li a:hover, table.table-sm.table-dark thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
+li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
   background-color: blue;
 }
 
-th, ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {
+table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {
   color: white;
 }
 

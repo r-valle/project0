@@ -44,7 +44,7 @@ th, td {
 }
 
 /* to center the table */
-table.center, table.table-sm.table-dark {
+table.center, table.table-sm {
     margin-left: auto;
     margin-right: auto;
 }
@@ -66,13 +66,20 @@ ul.horizontal_nav > li a {
     text-decoration: none;
 }
 
-div.card {
+div.card.history_info {
     margin: 15px;
+}
+
+div.card.match_result {
+    margin: 15px;
+    width: 25%;
+    text-align: center;
 }
 
 /* TODO: To equal the height of the card title when some names occupy several lines. */
 div.card.file_card {
-    width: 25%;
+    margin: 10px;
+    width: 172px;
     text-align: center;
 }
 
