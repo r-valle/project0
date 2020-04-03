@@ -4,7 +4,7 @@ $hover_letter_color: white;
 $hover_item_color: cornflowerblue;
 $list_element_without_dot: none;
 
-h1.title, h2.title, .brief_info, table, th, td, ul#results, ul.horizontal_nav > li a, ul.goals > li a {
+.title, .brief_info, table, th, td, ul#results, ul.horizontal_nav > li a, ul.goals > li a, .file_card, .match_result {
     text-align: $centered_position;
 }
 
