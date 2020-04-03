@@ -170,6 +170,10 @@ h5 > .btn.btn-link:hover {
     color: white;
 }
 
+.credit_icon {
+    margin: auto;
+}
+
 /* Media queries */
 
 @media (min-width: 500px) {
