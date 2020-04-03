@@ -1,4 +1,10 @@
 
+/* Browser support */
+
+article, aside, figcaption, figure, footer, header, nav, section {
+    display: block;
+}
+
 body {
     background-color: darkgrey;
 }
