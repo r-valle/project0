@@ -1,5 +1,5 @@
 $centered_position: center;
-$leicester_blue: blue;
+$leicester_blue:#003090;
 $hover_letter_color: white;
 $hover_item_color: cornflowerblue;
 $list_element_without_dot: none;
@@ -8,7 +8,7 @@ $list_element_without_dot: none;
     text-align: $centered_position;
 }
 
-li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
+.footer, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
     background-color: $leicester_blue;
 }
 

@@ -2,8 +2,8 @@
   text-align: center;
 }
 
-li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
-  background-color: blue;
+.footer, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
+  background-color: #003090;
 }
 
 table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {

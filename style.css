@@ -12,6 +12,7 @@ body {
 }
 
 .shield {
+    padding: 5px;
     /* to center the image */
     display: block;
     margin-left: auto;
@@ -94,6 +95,20 @@ h5 > .btn.btn-link:hover {
     color: white;
 }
 
+.footer {
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 100%;
+    min-height: 250px;
+}
+
+.horizontal_list {
+    display: inline;
+    /* TODO: To center the list without setting the width, width is ignored? */
+    width: 27%;
+    margin: auto;
+}
+
 /* Parallax effect */
 
 /* TODO: Refactor several parallax classes in only class */
@@ -118,6 +133,44 @@ h5 > .btn.btn-link:hover {
 .third_parallax {
     background-image: url('./img/parallax/parallax_image3.jpg');
 }
+
+/* Social network buttons (font awesome icons) */
+
+.fa {
+    padding: 10px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+.fa-youtube {
+    background: #bb0000;
+    color: white;
+}
+
+.fa-instagram {
+    background: #125688;
+    color: white;
+}
+
+/* Media queries */
 
 @media (min-width: 500px) {
     body {
