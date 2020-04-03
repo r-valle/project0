@@ -78,7 +78,7 @@ ul.horizontal_nav > li a {
 /* TODO: To equal the height of the card title when some names occupy several lines. */
 .file_card {
     margin: 10px;
-    width: 172px;
+    width: 200px;
 }
 
 img.card-img-top {
