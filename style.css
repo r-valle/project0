@@ -49,7 +49,7 @@ table.center, table.table-sm {
     margin-right: auto;
 }
 
-ul.horizontal_nav {
+.horizontal_nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
@@ -66,7 +66,7 @@ ul.horizontal_nav > li a {
     text-decoration: none;
 }
 
-div.card.history_info {
+.history_info {
     margin: 15px;
 }
 

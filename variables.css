@@ -14,7 +14,7 @@ div.card:hover, tr:hover {
   background-color: cornflowerblue;
 }
 
-ul#results, ul.horizontal_nav, ul.goals {
+ul#results, .horizontal_nav, .goals {
   list-style-type: none;
 }
 

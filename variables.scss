@@ -20,6 +20,6 @@ div.card:hover, tr:hover {
     background-color: $hover_item_color;
 }
 
-ul#results, ul.horizontal_nav, ul.goals {
+ul#results, .horizontal_nav, .goals {
     list-style-type: $list_element_without_dot;
 }
