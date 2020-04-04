@@ -2,12 +2,16 @@
   text-align: center;
 }
 
-footer, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
+a.nav-link:hover, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
   background-color: #003090;
 }
 
-table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {
+a.nav-link, table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {
   color: white;
+}
+
+nav, footer {
+  background-color: #004590;
 }
 
 div.card:hover, tr:hover {

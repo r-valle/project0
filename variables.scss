@@ -1,6 +1,7 @@
 $centered_position: center;
 $leicester_blue:#003090;
-$hover_letter_color: white;
+$background_darker_blue: #004590;
+$text_color: white;
 $hover_item_color: cornflowerblue;
 $list_element_without_dot: none;
 
@@ -8,12 +9,16 @@ $list_element_without_dot: none;
     text-align: $centered_position;
 }
 
-footer, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
+a.nav-link:hover, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
     background-color: $leicester_blue;
 }
 
-table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {
-    color: $hover_letter_color;
+a.nav-link, table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {
+    color: $text_color;
+}
+
+nav, footer {
+    background-color: $background_darker_blue;
 }
 
 div.card:hover, tr:hover {
