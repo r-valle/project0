@@ -10,7 +10,7 @@ a.nav-link, table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div
   color: white;
 }
 
-nav, footer {
+nav, footer, a.nav-link {
   background-color: #004590;
 }
 

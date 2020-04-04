@@ -17,7 +17,7 @@ a.nav-link, table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div
     color: $text_color;
 }
 
-nav, footer {
+nav, footer, a.nav-link {
     background-color: $background_darker_blue;
 }
 
