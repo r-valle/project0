@@ -52,11 +52,19 @@ table.center, table.table-sm {
     margin-right: auto;
 }
 
-.horizontal_nav {
+nav {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #004590;
+}
+
+a.nav-link {
+    color: white;
+}
+
+a.nav-link:hover {
+    background-color: #003090;
 }
 
 ul.horizontal_nav > li {
