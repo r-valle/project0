@@ -1,17 +1,5 @@
 /* style.css */
 
-body {
-    background-color: darkgrey;
-}
-
-.info_box {
-    display: flex;
-    flex-wrap: wrap;
-    padding: 5px;
-    margin: 10px;
-    border: 3px solid blue;
-}
-
 .shield {
     padding: 5px;
     /* to center the image */
@@ -21,6 +9,8 @@ body {
 
     width: 25%;
 }
+
+/* Tables */
 
 table {
     border-collapse: collapse;
@@ -46,6 +36,8 @@ table.center, table.table-sm {
     margin-left: auto;
     margin-right: auto;
 }
+
+/* Nav */
 
 nav {
     margin: 0;
@@ -104,13 +96,6 @@ footer {
     min-height: 250px;
 }
 
-.horizontal_list {
-    display: inline;
-    /* TODO: To center the list without setting the width, width is ignored? */
-    width: 27%;
-    margin: auto;
-}
-
 /* Parallax effect */
 
 /* TODO: Refactor several parallax classes in only class */
@@ -136,7 +121,16 @@ footer {
     background-image: url('./img/parallax/parallax_image3.jpg');
 }
 
-/* Social network buttons (font awesome icons) */
+/* Social network buttons */
+
+.horizontal_list {
+    display: inline;
+    /* TODO: To center the list without setting the width, width is ignored? */
+    width: 27%;
+    margin: auto;
+}
+
+/* Font awesome icons */
 
 .fa {
     padding: 10px;
