@@ -6,11 +6,11 @@ a.navbar-brand:hover, a.nav-link:hover, li a:hover, table.table-sm thead tr th[s
   background-color: #003090;
 }
 
-a.navbar-brand, a.nav-link, table.table-sm thead tr th[scope=col], .card:hover, .card-body:hover a, .card.mx-auto.match_result:hover .card-header h5.mb-0 button.btn.btn-link, li a:hover, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram {
+nav.navbar.navbar-light .nav-link:hover, nav.navbar.navbar-light .nav-link, nav.navbar.navbar-light a.navbar-brand, a.navbar-brand, a.nav-link, table.table-sm thead tr th[scope=col], .card:hover, .card-body:hover a, .card.mx-auto.match_result:hover .card-header h5.mb-0 button.btn.btn-link, li a:hover, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram {
   color: white;
 }
 
-nav, footer, a.nav-link {
+nav, footer, a.nav-link, .navbar-toggler {
   background-color: #004590;
 }
 

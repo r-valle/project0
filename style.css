@@ -39,6 +39,10 @@ nav {
   padding: 8px;
 }
 
+.navbar-toggler:hover {
+  background-color: #FDBE11;
+}
+
 /* Cards */
 
 .history_info {
