@@ -186,6 +186,12 @@ footer {
     .small_icon {
         width: 35%;
     }
+
+    .navbar-nav .nav-item:hover .nav-link {
+      padding-left: 8px;
+      padding-right: 8px;
+      width: 16%;
+    }
 }
 
 /* Browser support */
