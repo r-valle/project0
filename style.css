@@ -29,18 +29,19 @@ table.center, table.table-sm {
 
 /* Nav */
 
-nav {
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
 .navbar-brand {
   padding: 8px;
 }
 
 .navbar-toggler:hover {
   background-color: #FDBE11;
+}
+
+/* Containers */
+
+.container {
+  margin: 15px;
+  padding: 15px;
 }
 
 /* Cards */
