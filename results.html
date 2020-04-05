@@ -1,170 +1,170 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Leicester Team Website</title>
-    <link rel="shortcut icon" href="./img/utils/shield.ico" type="image/x-icon">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link rel="stylesheet" href="variables.css">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-    <!--[if lt IE 9]>
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <![endif]-->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Leicester Team Website</title>
+  <link rel="shortcut icon" href="./img/utils/shield.ico" type="image/x-icon">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="variables.css">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+  <!--[if lt IE 9]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <![endif]-->
 </head>
 <body>
 
-    <nav class="nav">
-      <a href="index.html" class="nav-link">Home</a>
-      <a href="team.html" class="nav-link">Team</a>
-      <a href="results.html" class="nav-link">Results</a>
-      <a href="table.html" class="nav-link">Table</a>
-      <a href="gallery.html" class="nav-link">Gallery</a>
-      <a href="about.html" class="nav-link">About</a>
-    </nav>
+  <nav class="nav">
+    <a href="index.html" class="nav-link">Home</a>
+    <a href="team.html" class="nav-link">Team</a>
+    <a href="results.html" class="nav-link">Results</a>
+    <a href="table.html" class="nav-link">Table</a>
+    <a href="gallery.html" class="nav-link">Gallery</a>
+    <a href="about.html" class="nav-link">About</a>
+  </nav>
 
-    <h1 class="title">Latest results</h1>
+  <h1 class="title">Latest results</h1>
 
-    <!-- TODO: To center the list of goals of each match  -->
+  <!-- TODO: To center the list of goals of each match  -->
 
-    <div id="accordion">
+  <div id="accordion">
+    
+    <div class="container">
+
+      <div class="card mx-auto match_result">
       
-      <div class="container">
+        <div class="card-header" id="headingOne">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+              Leicester City 4 - 0 Aston Villa
+            </button>
+          </h5>
+        </div>
 
-        <div class="card mx-auto match_result">
-        
-          <div class="card-header" id="headingOne">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                Leicester City 4 - 0 Aston Villa
-              </button>
-            </h5>
+        <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+          <div class="card-body">
+            <ul class="goals">
+              <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Harvey Barnes 40', 85'</li>
+              <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Jamie Vardy 63' (pen), 79'</li>
+            </ul>
           </div>
-  
-          <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
-            <div class="card-body">
-              <ul class="goals">
-                <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Harvey Barnes 40', 85'</li>
-                <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Jamie Vardy 63' (pen), 79'</li>
-              </ul>
-            </div>
-          </div>
-  
         </div>
-  
-        <div class="card mx-auto match_result">
-  
-          <div class="card-header" id="headingTwo">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                Leicester City 1 - 0 Birmingham City
-              </button>
-            </h5>
-          </div>
-          
-          <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
-            <div class="card-body">
-              <ul class="goals">
-                <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Ricardo Pereira 82'</li>
-              </ul>
-            </div>
-          </div>
-  
-        </div>
-  
-        <div class="card mx-auto match_result">
-  
-          <div class="card-header" id="headingThree">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-                Norwich 1 - 0 Leicester City
-              </button>
-            </h5>
-          </div>
-  
-          <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
-            <div class="card-body">
-              <ul class="goals">
-                <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Jamal Lewis 70'</li>
-              </ul>
-            </div>
-          </div>
-  
+
+      </div>
+
+      <div class="card mx-auto match_result">
+
+        <div class="card-header" id="headingTwo">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+              Leicester City 1 - 0 Birmingham City
+            </button>
+          </h5>
         </div>
         
-        <div class="card mx-auto match_result">
-  
-          <div class="card-header" id="headingFour">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
-                Leicester City 0 - 1 Manchester City
-              </button>
-            </h5>
+        <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordion">
+          <div class="card-body">
+            <ul class="goals">
+              <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Ricardo Pereira 82'</li>
+            </ul>
           </div>
-  
-          <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
-            <div class="card-body">
-              <ul class="goals">
-                <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Gabriel Jesus 80'</li>
-              </ul>
-            </div>
-          </div>
-  
         </div>
-  
-        <div class="card mx-auto match_result">
-  
-          <div class="card-header" id="headingFive">
-            <h5 class="mb-0">
-              <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
-                Wolves 0 - 0 Leicester City
-              </button>
-            </h5>
-          </div>
-  
-          <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
-            <div class="card-body">
-              <ul class="goals">
-                <li><img class="small_icon" src="./img/utils/double_yellow_red_card.png" alt="Red card image"> Hamza Choudhury 76'</li>
-              </ul>
-            </div>
-          </div>
-  
+
+      </div>
+
+      <div class="card mx-auto match_result">
+
+        <div class="card-header" id="headingThree">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+              Norwich 1 - 0 Leicester City
+            </button>
+          </h5>
         </div>
-  
+
+        <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordion">
+          <div class="card-body">
+            <ul class="goals">
+              <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Jamal Lewis 70'</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+      
+      <div class="card mx-auto match_result">
+
+        <div class="card-header" id="headingFour">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+              Leicester City 0 - 1 Manchester City
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseFour" class="collapse" aria-labelledby="headingFour" data-parent="#accordion">
+          <div class="card-body">
+            <ul class="goals">
+              <li><img class="small_icon" src="./img/utils/ball.png" alt="Goal image"> Gabriel Jesus 80'</li>
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="card mx-auto match_result">
+
+        <div class="card-header" id="headingFive">
+          <h5 class="mb-0">
+            <button class="btn btn-link" data-toggle="collapse" data-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+              Wolves 0 - 0 Leicester City
+            </button>
+          </h5>
+        </div>
+
+        <div id="collapseFive" class="collapse" aria-labelledby="headingFive" data-parent="#accordion">
+          <div class="card-body">
+            <ul class="goals">
+              <li><img class="small_icon" src="./img/utils/double_yellow_red_card.png" alt="Red card image"> Hamza Choudhury 76'</li>
+            </ul>
+          </div>
+        </div>
+
       </div>
 
     </div>
+
+  </div>
       
-    <footer>
-      <div class="container">
-          <div class="row">
-              <img class="shield" src="./img/utils/shield.png" alt="Leicester team shield">
-          </div>
-          <div class="row">
-              <ul class="horizontal_list">
-                  <a href="https://www.facebook.com/lcfc" target="_blank">
-                      <i class="fa fa-facebook" aria-hidden="true"></i>
-                  </a>
-                  <a href="https://twitter.com/lcfc" target="_blank">
-                      <i class="fa fa-twitter" aria-hidden="true"></i>
-                  </a>
-                  <a href="https://www.youtube.com/user/LCFCOfficial" target="_blank">
-                      <i class="fa fa-youtube" aria-hidden="true"></i>
-                  </a>
-                  <a href="https://www.instagram.com/lcfc/?hl=en" target="_blank">
-                      <i class="fa fa-instagram" aria-hidden="true"></i>
-                  </a>
-              </ul>
-          </div>
-          <div class="row">
-            <span class="credit_icon">Red card icon made by <a href="https://www.flaticon.com/<?=_('authors/')?>freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
-          </div>
-      </div>
-    </footer>
+  <footer>
+    <div class="container">
+        <div class="row">
+          <img class="shield" src="./img/utils/shield.png" alt="Leicester team shield">
+        </div>
+        <div class="row">
+          <ul class="horizontal_list">
+            <a href="https://www.facebook.com/lcfc" target="_blank">
+              <i class="fa fa-facebook" aria-hidden="true"></i>
+            </a>
+            <a href="https://twitter.com/lcfc" target="_blank">
+              <i class="fa fa-twitter" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.youtube.com/user/LCFCOfficial" target="_blank">
+              <i class="fa fa-youtube" aria-hidden="true"></i>
+            </a>
+            <a href="https://www.instagram.com/lcfc/?hl=en" target="_blank">
+              <i class="fa fa-instagram" aria-hidden="true"></i>
+            </a>
+          </ul>
+        </div>
+        <div class="row">
+          <span class="credit_icon">Red card icon made by <a href="https://www.flaticon.com/<?=_('authors/')?>freepik" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></span>
+        </div>
+    </div>
+  </footer>
 
 </body>
