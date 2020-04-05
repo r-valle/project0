@@ -5,7 +5,7 @@ $text_color: white;
 $hover_item_color: cornflowerblue;
 $list_element_without_dot: none;
 
-.title, table, th, td, ul#results, ul.horizontal_nav > li a, ul.goals > li a, .file_card, .match_result {
+.title, table, th, td, ul#results, ul.goals > li a, .file_card, .match_result {
     text-align: $centered_position;
 }
 
@@ -13,7 +13,7 @@ a.nav-link:hover, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-
     background-color: $leicester_blue;
 }
 
-a.nav-link, table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {
+a.nav-link, table.table-sm thead tr th[scope=col], .card:hover, .card-body:hover a, .card.mx-auto.match_result:hover .card-header h5.mb-0 button.btn.btn-link, li a:hover, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram  {
     color: $text_color;
 }
 
@@ -25,6 +25,6 @@ div.card:hover, tr:hover {
     background-color: $hover_item_color;
 }
 
-ul#results, .horizontal_nav, .goals {
+ul#results, .goals {
     list-style-type: $list_element_without_dot;
 }

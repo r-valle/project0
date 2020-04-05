@@ -1,4 +1,4 @@
-.title, table, th, td, ul#results, ul.horizontal_nav > li a, ul.goals > li a, .file_card, .match_result {
+.title, table, th, td, ul#results, ul.goals > li a, .file_card, .match_result {
   text-align: center;
 }
 
@@ -6,7 +6,7 @@ a.nav-link:hover, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-
   background-color: #003090;
 }
 
-a.nav-link, table.table-sm thead tr th[scope=col], ul.horizontal_nav > li a, div.card:hover div.card-body a, div.card:hover, li a:hover {
+a.nav-link, table.table-sm thead tr th[scope=col], .card:hover, .card-body:hover a, .card.mx-auto.match_result:hover .card-header h5.mb-0 button.btn.btn-link, li a:hover, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram {
   color: white;
 }
 
@@ -18,7 +18,7 @@ div.card:hover, tr:hover {
   background-color: cornflowerblue;
 }
 
-ul#results, .horizontal_nav, .goals {
+ul#results, .goals {
   list-style-type: none;
 }
 

@@ -1,15 +1,5 @@
 /* style.css */
 
-.shield {
-    padding: 5px;
-    /* to center the image */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-
-    width: 25%;
-}
-
 /* Tables */
 
 table {
@@ -45,15 +35,7 @@ nav {
     overflow: hidden;
 }
 
-ul.horizontal_nav > li {
-    float: left;
-}
-
-ul.horizontal_nav > li a {
-    display: block;
-    padding: 14px 16px;
-    text-decoration: none;
-}
+/* Cards */
 
 .history_info {
     margin: 15px;
@@ -70,6 +52,8 @@ ul.horizontal_nav > li a {
     width: 200px;
 }
 
+/* Images */
+
 img.card-img-top {
     width: 85%;
     margin: 15px;
@@ -83,8 +67,14 @@ img.card-img-top {
     margin: 15px;
 }
 
-h5 > .btn.btn-link:hover {
-    color: white;
+.shield {
+    padding: 5px;
+    /* to center the image */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    width: 25%;
 }
 
 /* Footer */
@@ -148,22 +138,18 @@ footer {
 
 .fa-facebook {
     background: #3B5998;
-    color: white;
 }
 
 .fa-twitter {
     background: #55ACEE;
-    color: white;
 }
 
 .fa-youtube {
     background: #bb0000;
-    color: white;
 }
 
 .fa-instagram {
     background: #125688;
-    color: white;
 }
 
 .credit_icon {
