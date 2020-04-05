@@ -9,11 +9,11 @@ $list_element_without_dot: none;
     text-align: $centered_position;
 }
 
-a.nav-link:hover, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
+a.navbar-brand:hover, a.nav-link:hover, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
     background-color: $leicester_blue;
 }
 
-a.nav-link, table.table-sm thead tr th[scope=col], .card:hover, .card-body:hover a, .card.mx-auto.match_result:hover .card-header h5.mb-0 button.btn.btn-link, li a:hover, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram  {
+a.navbar-brand, a.nav-link, table.table-sm thead tr th[scope=col], .card:hover, .card-body:hover a, .card.mx-auto.match_result:hover .card-header h5.mb-0 button.btn.btn-link, li a:hover, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram  {
     color: $text_color;
 }
 

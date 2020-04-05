@@ -35,6 +35,10 @@ nav {
     overflow: hidden;
 }
 
+.navbar-brand {
+  padding: 8px;
+}
+
 /* Cards */
 
 .history_info {
