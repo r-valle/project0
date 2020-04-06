@@ -66,6 +66,16 @@ table.center, table.table-sm {
   text-decoration: none;
 }
 
+.match_result button.btn.btn-link:after {
+  font-family: "FontAwesome";
+  content: "\f078";
+}
+
+.match_result button.btn.btn-link.collapsed:after {
+  font-family: "FontAwesome";
+  content: "\f054";
+}
+
 /* TODO: To equal the height of the card title when some names occupy several lines. */
 .file_card {
     margin: 10px;
