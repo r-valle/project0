@@ -62,6 +62,10 @@ table.center, table.table-sm {
     width: 45%;
 }
 
+.match_result .btn.btn-link {
+  text-decoration: none;
+}
+
 /* TODO: To equal the height of the card title when some names occupy several lines. */
 .file_card {
     margin: 10px;
