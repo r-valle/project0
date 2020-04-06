@@ -5,7 +5,7 @@ $text_color: white;
 $hover_item_color: cornflowerblue;
 $list_element_without_dot: none;
 
-.title, table, th, td, ul#results, ul.goals > li a, .file_card, .match_result {
+.title, table, th, td, ul#results, ul.performance > li a, .file_card, .match_result {
     text-align: $centered_position;
 }
 
@@ -25,6 +25,6 @@ div.card:hover, tr:hover {
     background-color: $hover_item_color;
 }
 
-ul#results, .goals {
+ul#results, .performance {
     list-style-type: $list_element_without_dot;
 }

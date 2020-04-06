@@ -59,7 +59,7 @@ table.center, table.table-sm {
 
 .match_result {
     margin: 15px;
-    width: 25%;
+    width: 45%;
 }
 
 /* TODO: To equal the height of the card title when some names occupy several lines. */

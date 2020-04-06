@@ -1,4 +1,4 @@
-.title, table, th, td, ul#results, ul.goals > li a, .file_card, .match_result {
+.title, table, th, td, ul#results, ul.performance > li a, .file_card, .match_result {
   text-align: center;
 }
 
@@ -18,7 +18,7 @@ div.card:hover, tr:hover {
   background-color: cornflowerblue;
 }
 
-ul#results, .goals {
+ul#results, .performance {
   list-style-type: none;
 }
 
