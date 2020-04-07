@@ -107,6 +107,12 @@ img.card-img-top {
     width: 25%;
 }
 
+/* Videos */
+
+.embed-responsive {
+  margin: 15px;
+}
+
 /* Footer */
 
 footer {
