@@ -10,28 +10,28 @@ h1.title, h2.title {
 /* Tables */
 
 table {
-    border-collapse: collapse;
-    width: 30%;
-    margin: 10px;
+  border-collapse: collapse;
+  width: 30%;
+  margin: 10px;
 }
 
 table, th, td {
-    border: 1px solid black;
+  border: 1px solid black;
 }
 
 th {
-    height: 50px;
-    font-size: 24px;
+  height: 50px;
+  font-size: 24px;
 }
 
 th, td {
-    padding: 5px;
+  padding: 5px;
 }
 
 /* to center the table */
 table.center, table.table-sm {
-    margin-left: auto;
-    margin-right: auto;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 /* Nav */
@@ -54,12 +54,12 @@ table.center, table.table-sm {
 /* Cards */
 
 .history_info {
-    margin: 15px;
+  margin: 15px;
 }
 
 .match_result {
-    margin: 15px;
-    width: 55%;
+  margin: 15px;
+  width: 55%;
 }
 
 .match_result .btn.btn-link {
@@ -78,33 +78,33 @@ table.center, table.table-sm {
 
 /* TODO: To equal the height of the card title when some names occupy several lines. */
 .file_card {
-    margin: 10px;
-    width: 200px;
+  margin: 10px;
+  width: 200px;
 }
 
 /* Images */
 
 img.card-img-top {
-    width: 85%;
-    margin: 15px;
-    /* To center image */
-    margin-left: auto;
-    margin-right: auto;
+  width: 85%;
+  margin: 15px;
+  /* To center image */
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .small_icon {
-    width: 10%;
-    margin: 15px;
+  width: 10%;
+  margin: 15px;
 }
 
 .shield {
-    padding: 5px;
-    /* to center the image */
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+  padding: 5px;
+  /* to center the image */
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 
-    width: 25%;
+  width: 25%;
 }
 
 /* Videos */
@@ -119,123 +119,123 @@ img.card-img-top {
 /* Footer */
 
 footer {
-    background-position: center;
-    background-repeat: no-repeat;
-    width: 100%;
-    min-height: 250px;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100%;
+  min-height: 250px;
 }
 
 /* Parallax effect */
 
 /* TODO: Refactor several parallax classes in only class */
 .parallax {
-    height: 400px;
+  height: 400px;
 
-    /* parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+  /* parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .first_parallax {
-    background-image: url('./img/parallax/parallax_image1.jpg');
+  background-image: url('./img/parallax/parallax_image1.jpg');
 }
 
 .second_parallax {
-    background-image: url('./img/parallax/parallax_image2.jpg');
+  background-image: url('./img/parallax/parallax_image2.jpg');
 }
 
 .third_parallax {
-    background-image: url('./img/parallax/parallax_image3.jpg');
+  background-image: url('./img/parallax/parallax_image3.jpg');
 }
 
 /* Social network buttons */
 
 .horizontal_list {
-    display: inline;
-    /* TODO: To center the list without setting the width, width is ignored? */
-    width: 27%;
-    margin: auto;
+  display: inline;
+  /* TODO: To center the list without setting the width, width is ignored? */
+  width: 27%;
+  margin: auto;
 }
 
 /* Font awesome icons */
 
 .fa {
-    padding: 10px;
-    font-size: 30px;
-    width: 50px;
-    text-align: center;
-    text-decoration: none;
-    margin: 5px 2px;
-    border-radius: 50%;
+  padding: 10px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
 }
 
 .fa:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-facebook {
-    background: #3B5998;
+  background: #3B5998;
 }
 
 .fa-twitter {
-    background: #55ACEE;
+  background: #55ACEE;
 }
 
 .fa-youtube {
-    background: #bb0000;
+  background: #bb0000;
 }
 
 .fa-instagram {
-    background: #125688;
+  background: #125688;
 }
 
 .credit_icon {
-    margin: auto;
+  margin: auto;
 }
 
 /* Media queries */
 
 @media (min-width: 500px) {
-    body {
-        max-width: 100%;
-        height: auto;
-    }
+  body {
+    max-width: 100%;
+    height: auto;
+  }
 
-    .shield {
-        width: 15%;
-        height: auto;
-    }
+  .shield {
+    width: 15%;
+    height: auto;
+  }
 }
 
 @media (max-width: 499px) {
-    table {
-        width: 20%;
-    }
+  table {
+    width: 20%;
+  }
 
-    .small_icon {
-        width: 35%;
-    }
+  .small_icon {
+    width: 35%;
+  }
 
-    .navbar-nav .nav-item:hover .nav-link {
-      padding-left: 8px;
-      padding-right: 8px;
-      width: 20%;
-    }
+  .navbar-nav .nav-item:hover .nav-link {
+    padding-left: 8px;
+    padding-right: 8px;
+    width: 20%;
+  }
 
-    .match_result {
-      width: 100%;
-    }
+  .match_result {
+    width: 100%;
+  }
 
-    /* Responsive text */
-    .performance li {
-      font-size: 1vw;
-    }
+  /* Responsive text */
+  .performance li {
+    font-size: 1vw;
+  }
 }
 
 /* Browser support */
 
 article, aside, figcaption, figure, footer, header, nav, section {
-    display: block;
+  display: block;
 }
