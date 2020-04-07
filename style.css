@@ -214,6 +214,15 @@ footer {
       padding-right: 8px;
       width: 16%;
     }
+
+    .match_result {
+      width: 100%;
+    }
+
+    /* Responsive text */
+    .performance li {
+      font-size: 1vw;
+    }
 }
 
 /* Browser support */
