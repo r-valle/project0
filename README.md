@@ -23,5 +23,5 @@ The content of the files is the following:
 
 Notes:
 
-This project has been validated by the following markup validation services:
+The HTML code has been validated by the following markup validation services:
 - https://validator.w3.org/#validate_by_uri+with_options
