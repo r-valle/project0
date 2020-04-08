@@ -10,6 +10,7 @@ The content of the files is the following:
 - results.html: List of the 5 latest matches
 - table.html: The current table of the Premier League 2020/21
 - gallery.html: The image gallery
+- interviews.html: A list of interviews with the Leicester City coach and footballers
 - about.html: A brief summary about the team
 - style.css: The project's stylesheet
 - variables.css: Common css variables generated using Sass
@@ -18,4 +19,9 @@ The content of the files is the following:
 - img/footballers: The photos of the footballers
 - img/gallery: The photos of the image gallery
 - img/parallax: The photos for the parallax's background 
-- img/utils: Some images such as the ball, the shield and a red card.
+- img/utils: Some images such as the shield and a red card.
+
+Notes:
+
+This project has been validated by the following markup validation services:
+- https://validator.w3.org/#validate_by_uri+with_options
