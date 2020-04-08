@@ -152,10 +152,12 @@ footer {
 /* Social network buttons */
 
 .horizontal_list {
-  display: inline;
-  /* TODO: To center the list without setting the width, width is ignored? */
   width: 27%;
   margin: auto;
+}
+
+.horizontal_list li {
+  display: inline;
 }
 
 /* Font awesome icons */

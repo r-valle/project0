@@ -18,7 +18,7 @@ nav, footer, a.nav-link, .navbar-toggler {
   background-color: cornflowerblue;
 }
 
-ul#results, .performance {
+ul#results, .performance, ul.horizontal_list {
   list-style-type: none;
 }
 

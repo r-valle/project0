@@ -25,6 +25,6 @@ nav, footer, a.nav-link, .navbar-toggler {
   background-color: $hover_item_color;
 }
 
-ul#results, .performance {
+ul#results, .performance, ul.horizontal_list {
   list-style-type: $list_element_without_dot;
 }
