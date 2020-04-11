@@ -2,7 +2,7 @@
   text-align: center;
 }
 
-a.navbar-brand:hover, a.nav-link:hover, li a:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
+a.navbar-brand:hover, a.nav-link:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
   background-color: #003090;
 }
 
