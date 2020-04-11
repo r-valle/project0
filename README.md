@@ -16,6 +16,7 @@ The content of the files is the following:
 - variables.css: Common css variables generated using Sass
 - variables.scss: Common sass variables
 - .gitignore: List of file extensions we don't want to upload to Github
+- img/countries: Some PNG flags of some countries
 - img/footballers: The photos of the footballers
 - img/gallery: The photos of the image gallery
 - img/parallax: The photos for the parallax's background 
@@ -23,5 +24,12 @@ The content of the files is the following:
 
 Notes:
 
-The HTML code has been validated by the following markup validation services:
+1) The HTML code has been validated by the following markup validation services:
 - https://validator.w3.org/#validate_by_uri+with_options
+
+2) To get all the countries' flags in svg format (unless Northern Ireland flag), I have used svg-country-flags via npm
+
+How to run the project:
+
+1- Download the repository from Github
+2- Install dependencies using the command npm -i in the directory where you have cloned the repository

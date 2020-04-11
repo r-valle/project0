@@ -107,6 +107,16 @@ img.card-img-top {
   width: 25%;
 }
 
+.flag {
+  width: 25%;
+  padding: 4px;
+  margin: 4px;
+}
+
+.country_name {
+  font-size: small;
+}
+
 /* Videos */
 
 .embed-responsive {
