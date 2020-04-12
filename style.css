@@ -17,6 +17,10 @@ h1.title, h2.title {
   padding: 8px;
 }
 
+.navbar-toggler {
+  margin: 8px;
+}
+
 .navbar-toggler:hover {
   background-color: #FDBE11;
 }
