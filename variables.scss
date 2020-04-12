@@ -21,7 +21,7 @@ nav, footer, a.nav-link, .navbar-toggler {
   background-color: $background_darker_blue;
 }
 
-div.container tbody tr#leicester_city {
+tr#leicester_city, .table-striped thead tr {
   background-color: $background_darker_blue;
   color: $text_color;
 }

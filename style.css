@@ -198,9 +198,9 @@ footer {
 }
 
 @media (max-width: 499px) {
-  table {
+  /* table {
     width: 20%;
-  }
+  } */
 
   .small_icon {
     width: 35%;
