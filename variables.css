@@ -1,12 +1,12 @@
-.title, table, th, td, ul#results, ul.performance > li a, .file_card, .match_result {
+.title, th, td, ul#results, ul.performance > li a, .file_card, .match_result {
   text-align: center;
 }
 
-a.navbar-brand:hover, a.nav-link:hover, table.table-sm thead tr th[scope=col], ul.nav.nav-pills li.nav-item a.nav-link.active {
+a.navbar-brand:hover, a.nav-link:hover, ul.nav.nav-pills li.nav-item a.nav-link.active {
   background-color: #003090;
 }
 
-nav.navbar.navbar-light .nav-link:hover, nav.navbar.navbar-light .nav-link, nav.navbar.navbar-light a.navbar-brand, a.navbar-brand, a.nav-link, table.table-sm thead tr th[scope=col], .history_info:hover, .file_card:hover, .card-body:hover a, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram {
+nav.navbar.navbar-light .nav-link:hover, nav.navbar.navbar-light .nav-link, nav.navbar.navbar-light a.navbar-brand, a.navbar-brand, a.nav-link, .history_info:hover, .file_card:hover, .card-body:hover a, .fa-facebook, .fa-twitter, .fa-youtube, .fa-instagram {
   color: white;
 }
 
@@ -14,7 +14,12 @@ nav, footer, a.nav-link, .navbar-toggler {
   background-color: #004590;
 }
 
-.history_info:hover, .file_card:hover, tr:hover {
+div.container tbody tr#leicester_city {
+  background-color: #004590;
+  color: white;
+}
+
+.history_info:hover, .file_card:hover {
   background-color: cornflowerblue;
 }
 
