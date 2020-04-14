@@ -106,13 +106,23 @@ img.card-img-top {
   margin-bottom: 20px;
 }
 
-/* Footer */
+/* Sticky footer */
 
-footer {
-  background-position: center;
-  background-repeat: no-repeat;
-  width: 100%;
-  min-height: 250px;
+html, body {
+  height: 100%;
+}
+
+#carouselExampleControls {
+  flex: 1 0 auto;
+}
+
+#sticky-footer {
+  flex-shrink: none;
+}
+
+body#galleryBackground {
+  background: #007bff;
+  background: linear-gradient(to right, #0062E6, #33AEFF);
 }
 
 /* Parallax effect */
