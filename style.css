@@ -128,7 +128,7 @@ body#galleryBackground {
 /* Parallax effect */
 
 /* TODO: Refactor several parallax classes in only class */
-.parallax {
+[class*="parallax-"] {
   height: 400px;
 
   /* parallax scrolling effect */
@@ -137,16 +137,13 @@ body#galleryBackground {
   background-repeat: no-repeat;
   background-size: cover;
 }
-
-.first_parallax {
+.parallax-top {
   background-image: url('./img/parallax/parallax_image1.jpg');
 }
-
-.second_parallax {
+.parallax-middle {
   background-image: url('./img/parallax/parallax_image2.jpg');
 }
-
-.third_parallax {
+.parallax-bottom {
   background-image: url('./img/parallax/parallax_image3.jpg');
 }
 
